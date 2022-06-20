@@ -1,6 +1,6 @@
 ## MFPSNet
 
-This repository contains the code for paper "Multi-Prior Learning via Neural Architecture Search for Blind Face Restoration".
+This repository contains the code for the blind face restoration paper "Multi-Prior Learning via Neural Architecture Search for Blind Face Restoration." This paper searches the optimal network for blind face restoration and utilizes multiple facial priors in one network by neural network architecure. The code for searching, retraining, and testing is included in this repo. We also embed the searched architectures in the code for more convenience.
 
 
 ## Requirements

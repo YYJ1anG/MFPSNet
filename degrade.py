@@ -12,7 +12,7 @@ import imgaug.augmenters as ia
 def get_down():
     return ia.Sequential([
         # random downsample 8x and get back
-        ia.Resize((0.125,0.125)),
+        ia.Resize((0.5,0.5)),
         ia.Resize({"height": 128, "width": 128}),
     ])
 
